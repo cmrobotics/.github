@@ -7,6 +7,16 @@ We love your input! We want to make contributing to this project as easy and tra
 - Proposing new features
 - Becoming a maintainer
 
+## Branch naming
+All branches should follow the pattern `prefix/descriptive-name-separated-by-dashes`, where the `prefix` must be selected from the list below.
+
+ - `feature`: when introducing a new feature.
+ - `bugfix`: when solving a bug.
+ - `hotfix`: when solving a critical bug that should be pushed to production asap.
+ - `refactor`: when refactoring the code without introducing feature or fixing bugs.
+
+ The prefixes reflect that you should try, as much as possible, to separate the concerns of your PR. If you are introducing a feature and you find bugs,
+ please open another PR to address their solution instead of combining both changes in the same PR.
 ## We Develop with Github
 We use github to host code, to track issues from public repositories and feature requests, as well as accept pull requests. We use Jira for private repositories.
 
