@@ -67,17 +67,18 @@ We use github to host code, to track issues from public repositories and feature
 ## We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So All Code Changes Happen Through Pull Requests
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow)). We actively welcome your pull requests:
 
-1. You're an external collaborator: Fork the repository and create your branch from the default branch (`master`, `galactic-devel`).
-1. You're an internal collaborator: You don't have to fork the repository (but you can).
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
-7. You need 2 approvals for the merge to be possible. All checks must pass as well.
-8. You'll need to rebase your changes on top of the target branch for the merge to be possible.
-9. All conversations from the review must be resolved (shows that you've taken them into account) before merging.
-10. If you're an internal collaborator, your branch will be deleted when merged.
+1. (You're an external collaborator): Fork the repository.
+2. Create your branch from the default branch (`master`, `galactic-devel`).
+3. If you've added code that should be tested, add tests.
+4. If you've changed APIs, update the documentation.
+5. Ensure the test suite passes.
+6. Format your code using tools from [the Coding Style section](#use-a-consistent-coding-style).
+7. Make sure your code lints.
+8. Issue that pull request!
+9. You need 2 approvals for the merge to be possible. All checks must pass as well.
+10. You'll need to rebase your changes on top of the target branch for the merge to be possible.
+11. All conversations from the review must be resolved (shows that you've taken them into account) before merging.
+12. If you're an internal collaborator, your branch will be deleted when merged.
 
 ## Use a Consistent Coding Style
 
