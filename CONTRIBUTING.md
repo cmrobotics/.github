@@ -84,5 +84,5 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 
 * We follow PEP-8 and PEP-20 for all languages.
 * Format your code using 
-    * [astyle](https://manpages.ubuntu.com/manpages/trusty/man1/astyle.1.html) for C/C++ using `astyle --style=linux --pad-oper --recursive --indent=spaces=2 [FILE1] [FILE2]`
+    * [astyle](https://manpages.ubuntu.com/manpages/trusty/man1/astyle.1.html) for C/C++ using `astyle --style=linux --pad-oper --recursive --indent=spaces=2 --suffix=none [FILE1] [FILE2]`
     * [black](https://www.freecodecamp.org/news/auto-format-your-python-code-with-black/#:~:text=To%20format%20more%20than%20one,black%20folder_name%2F%20in%20the%20terminal.) for Python using `black [FILE]`
